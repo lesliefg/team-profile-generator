@@ -26,7 +26,7 @@
 ### Then follow these steps to install the project
 1. Follow the Github repo link under Usage or above.
 2. Clone the repo using Gitbash with the command "git clone (link)" OR download the entire repo as a zip file.
-3. Once open in VS Code, install NPM using "npm init -y" in the terminal
+3. Once open in VS Code, install NPM using "npm i" in the terminal
 4. Lastly install inquirer using "npm install inquirer" in the terminal. 
 
 ## Usage
