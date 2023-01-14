@@ -1,9 +1,9 @@
 const Manager = require('../lib/Manager');
 
-test('Can get school name through constructor', () => {
+test('Can get office number through constructor', () => {
     const officeNumber = 1515;
     const newManager = new Manager('Demetrios', 76113191, 'demetriostest@gmail.com', officeNumber);
-    expect(newManager.school).toBe(officeNumber);
+    expect(newManager.officeNumber).toBe(officeNumber);
 });
 
 test('Can get office number using getOfficeNumber()', () => {
