@@ -14,13 +14,13 @@ describe('New employee', () => {
 
     it('Can record ID', () => {
         const id = 76113161;
-        const newPerson = new Employee(id);
+        const newPerson = new Employee("Avery", id);
         expect(newPerson.id).toBe(id);
     });
 
     it('Can record email', () => {
         const email = 'averytest@gmail.com';
-        const newPerson = new Employee(email);
+        const newPerson = new Employee("Avery", 76113161, email);
         expect(newPerson.email).toBe(email);
     });
 
@@ -35,15 +35,15 @@ describe('New employee', () => {
     describe("getId", () => {
         it('Can record name using getId()', () => {
             const id = 76113161;
-        const newPerson = new Employee(id);
-        expect(newPerson.getId()).toBe(id);
+            const newPerson = new Employee("Avery", id);
+            expect(newPerson.getId()).toBe(id);
         });
     });
 
     describe("getEmail", () => {
         it('Can record name using getEmail()', () => {
             const email = 'averytest@gmail.com';
-            const newPerson = new Employee(email);
+            const newPerson = new Employee("Avery", 76113161, email);
             expect(newPerson.getEmail()).toBe(email);
         });
     });

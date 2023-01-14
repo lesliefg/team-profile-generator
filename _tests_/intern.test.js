@@ -8,7 +8,7 @@ test('Can get school name through constructor', () => {
 
 test('Can get school using getSchool()', () => {
     const school = 'Mortin High';
-    const newIntern = new Engineer('Oscar', 76113181, 'marcotest@gmail.com', school);
+    const newIntern = new Intern('Oscar', 76113181, 'marcotest@gmail.com', school);
     expect(newIntern.getSchool()).toBe(school);
 });
 
