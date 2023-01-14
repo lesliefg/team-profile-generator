@@ -55,5 +55,5 @@
 
 ## Tutorial and Screenshot
 ![alt text](/assets/screenshot.png)
-- Tutorial video is also available in the assets folder
 - Link to tutorial [https://drive.google.com/file/d/14z_pmjTObklNwEZdf6Tm1ZeYPYPxV2dG/view]
+- Tutorial video is also available in the assets folder
