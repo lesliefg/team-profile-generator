@@ -27,7 +27,8 @@
 1. Follow the Github repo link under Usage or above.
 2. Clone the repo using Gitbash with the command "git clone (link)" OR download the entire repo as a zip file.
 3. Once open in VS Code, install NPM using "npm i" in the terminal
-4. Lastly install inquirer using "npm install inquirer" in the terminal. 
+4. Next, install jest if you'd like to run the tests using "npm install --save-dev jest"
+5. Lastly install inquirer using "npm install inquirer" in the terminal. 
 
 ## Usage
 - Once the project is installed and all packages downloaded, use the command "node ./index.js" to run the prompts
